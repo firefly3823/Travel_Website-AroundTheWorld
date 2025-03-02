@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Images/logo-no-background.png" type="image/x-icon">
+    <title>Around</title>
+</head>
+
+<body>
+    <section id="first-section" class="position-relative">
+        <!-- Navigation Bar  -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-1 " href="#"><span class="text-warning"
+                        style="font-family: 'Bungee Spice', cursive;">Around</span> <span class="fs-5 text-light"
+                        style="font-family: 'Pacifico', cursive;">The World</span></a>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <lord-icon src="https://cdn.lordicon.com/bwhjesak.json" trigger="click"
+                        colors="primary:#ffffff,secondary:#000000" style="width:30px">
+                    </lord-icon>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold hover-underline" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="text-light fw-bold hover-underline">Packages</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Package1</a></li>
+                                <li><a class="dropdown-item" href="#">package 2</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Know More</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold hover-underline" aria-current="page"
+                                href="#">Transpport</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold hover-underline" aria-current="page"
+                                href="#">Hotels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold hover-underline" aria-current="page"
+                                href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold hover-underline" href="#">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navigatin end -->
+        <!-- home page responsive heading -->
+        <div class="row w-100">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col-md-3">
+                <h1 class="text-light text-front-page">HABIBI <br><span class="text-front-page-span">Come</span> <br>To
+                    <span class="text-front-page-span"><br>Dubai</span>
+                </h1>
+            </div>
+            <div class="col"></div>
+        </div>
+        <!-- button Grid -->
+        <div class="row w-100">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col">
+                <!-- Button trigger modal -->
+                <a class="home-button text-white fs-5 fw-bold" href="" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Enquiry</a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Enter Details</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body bg-body-secondary">
+                                <!-- Modal Customer details starting -->
+                                <form>
+                                    <div class="mb-3 bg-transparent">
+                                        <input type="Text" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Name">
+                                    </div>
+                                    <div class="mb-3 bg-transparent">
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Email address">
+                                    </div>
+                                    <div class="mb-3 bg-transparent">
+                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Enter Mobile Number">
+                                    </div>
+                            </div>
+                            <div class="mb-3 ">
+                                <div class="dropdown align-self-center">
+                                    <button class="btn btn-secondary dropdown-toggle text-bg-light w-100 border-0"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Select Preference
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Plan1</a></li>
+                                        <li><a class="dropdown-item" href="#">Plan 2</a></li>
+                                        <li><a class="dropdown-item" href="#">More</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mb-3 bg-transparent">
+                                <input type="number" class="form-control" aria-describedby="emailHelp"
+                                    placeholder="No. of Menbers">
+                            </div>
+                            <div class="mb-3 bg-transparent">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">Comments</label>
+                                </div>
+                            </div>
+                            </form>
+                            <!-- details end -->
+                            <div class="modal-footer align align-self-center">
+                                <button type="button" class="btn btn-primary">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </section>
+    <section id="second-section">
+        <h1 class="text-center mt-2">ADVENTURE PACKAGES</h1>
+        <!-- Card container start -->
+        <div class="card-container">
+            <div style="width: 100%;" class="row">
+                <div class="col-lg-3 d-flex justify-content-around">
+                    <div class="card card-A p-3 position-relative" style="width: 19rem;height: 60vh;">
+                        <img src="./Images/Skydiving_over_Palm_Jumeirah.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sky Diving</h5>
+                            <p class="card-text"> skydiving is one of the top adventure sports in Dubai. Challenge your
+                                fear by
+                                jumping off a SkyDive Dubai plane and falling-free from a height of 13,000 feet. </p>
+                            <div class="card-footer border-0 bg-white position-absolute bottom-0"><span>Cost: INR
+                                    30000</span>
+                                <a href="#" class="btn btn btn-outline-info">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-around">
+                    <div class="card p-3 card-A position-relative" style="width: 19rem; height: 60vh;">
+                        <img src="./Images/Huntair_pathfinder_mk1_ultralight_g-mjwk_arp.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Microlighting</h5>
+                            <p class="card-text"> Microlighting, also known as Ultralight is a lightweight fixed-winged
+                                aircraft
+                                that lands at a very slow speed. </p>
+                            <div class="card-footer border-0 bg-white position-absolute bottom-0"><span>Cost: INR
+                                    2,900</span>
+                                <a href="#" class="btn btn-outline-info">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-around">
+                    <div class="card p-3 card-A position-relative" style="width: 19rem; height:60vh ;">
+                        <img src="./Images/NZ220315_Hydro_Attack_Queenstown_01_(cropped).jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SeaBreacher Ride</h5>
+                            <p class="card-text"> skydiving is one of the top adventure sports in Dubai. Challenge your
+                                fear by
+                                jumping off a SkyDive Dubai plane and falling-free from a height of 13,000 feet. </p>
+                            <div class="card-footer border-0 bg-white position-absolute bottom-0"><span>Cost: INR
+                                    8,590</span>
+                                <a href="#" class="btn btn-outline-info">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-around ">
+                    <div class="card p-2 card-A position-relative" style="width: 19rem; height: 60vh;">
+                        <img src="./Images/man-zip-lining-upside-down_800.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SeaBreacher Ride</h5>
+                            <p class="card-text"> Go whee from a height of 1,800 ft above the ground attached to a
+                                zipline.
+                                Believe me, this is the most thrilling adventure experience in Dubai.</p>
+                            <div class="card-footer border-0 bg-white position-absolute bottom-0"><span>Cost: INR
+                                    12,000</span>
+                                <a href="#" class="btn btn-outline-info">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Card container-end -->
+        <div class="d-grid gap-2 col-1 mx-auto mt-3"><button type="button"
+                class="btn btn-outline-success rounded-pill">More</button></div>
+        <!-- Main Heading -->
+        <h1 class="text-center mt-2">HIGHLIGHTS</h1>
+        <!-- Crousel start here and video-->
+        <div class="p-2 m-2 carousal-slide">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide m-2">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./Images/burj-al-arab-dubai-uae-wallpaper-afb1c04ccb4f813f32263e989af353b7.jpg"
+                            class="d-block w-100 carousal-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-white fs-1">Burj Al Arab Dubai UAE</h5>
+                            <p class="text-white">The Burj Al Arab is a luxury hotel located in the city of Dubai,
+                                United
+                                Arab Emirates.</p>
+                            <div class="d-grid gap-2 col-2 mx-auto mt-3"><button type="button"
+                                    class="btn btn-outline-light rounded-pill">MORE IMAGES</button></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./Images/wp6584728-dubai-hd-desktop-wallpapers.jpg"
+                            class="d-block w-100 carousal-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-white fs-1">burj khalifa</h5>
+                            <p class="text-white">The Burj Khalifa is a skyscraper in Dubai, United Arab Emirates. It is
+                                the
+                                world's tallest building.</p>
+                            <div class="d-grid gap-2 col-2 mx-auto mt-3"><button type="button"
+                                    class="btn btn-outline-light rounded-pill">MORE IMAGES</button></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/wp12060664-dubai-museum-wallpapers.jpg"
+                            class="d-block w-100 carousal-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-white fs-1">Museum of the Future</h5>
+                            <p class="text-white">The Museum of the Future welcomes people of all ages to see, touch,
+                                and
+                                shape our shared future.</p>
+                            <div class="d-grid gap-2 col-2 mx-auto mt-3"><button type="button"
+                                    class="btn btn-outline-light rounded-pill">MORE IMAGES</button></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Crousal end here -->
+            <!-- Grid with youtube video and photos start -->
+            <div class="container text-center mt-4">
+                <div class="row h-100">
+                    <div class="col-md-6 text-center h-100">
+                        <!-- Youtube iframe -->
+                        <iframe style="height: 55vh; width: 100%;" src="https://www.youtube.com/embed/ahy5o5nT4oI"
+                            title="DUBAI, United Arab Emirates" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <!-- Youtube iframe ends -->
+                    </div>
+                    <div class="col-lg-2 col-md-2 mt-sm-0 mt-lg-3 p-0">
+                        <img src="./Images/wp4491020-dubai-4k-wallpapers.jpg"
+                            class="w-100 shadow-1-strong rounded mb-1" alt="Boat on Calm Water" height="32%" />
+
+                        <img src="./Images/wp6584746-dubai-hd-desktop-wallpapers.jpg"
+                            class="w-100 shadow-1-strong rounded mb-1" alt="Wintry Mountain Landscape" height="27%" />
+
+                        <img src="./Images/wp6584770-dubai-4k-wallpapers.jpg"
+                            class="w-100 shadow-1-strong rounded mb-1" alt="Yosemite National Park" />
+                    </div>
+                    <div class="col-lg-2 col-md-2 mt-sm-0 mt-lg-3 px-1 py-0">
+                        <img src="./Images/wp7600217-dubai-2023-wallpapers.jpg"
+                            class="w-100 shadow-1-strong rounded mb-1" alt="Mountains in the Clouds" height="40%" />
+
+                        <img src="./Images/wp6584932-dubai-hd-desktop-wallpapers.jpg"
+                            class="w-100 shadow-1-strong rounded mb-1" alt="Boat on Calm Water" height="47%" />
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 mt-sm-0 mt-lg-3 p-0">
+                        <img src="Images/burj-al-arab-dubai-uae-wallpaper-afb1c04ccb4f813f32263e989af353b7.jpg"
+                            class="w-100 shadow-1-strong rounded mb-1" alt="Waves at Sea" height="30%" />
+                        <img src="./Images/eiffel-tower-hd-hf.jpg"
+                            class="w-100 shadow-1-strong rounded mb-1" alt="Waves at Sea" height="29%" />
+
+                        <img src="./Images/wp6584716-dubai-4k-wallpapers.jpg"
+                            class="w-100 shadow-1-strong rounded mb-1" alt="Yosemite National Park" height="28%" />
+                    </div>
+                    <!-- Photos at right side container ends -->
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Grid with youtube video and photos end -->
+
+        <h1 class="text-center mt-4 mb-3">MORE COUNTRIES</h1>
+        <!-- More Countries images card start -->
+
+        <div class="more-countries-container container-fluid d-flex justify-content-evenly">
+
+            <div class="card rounded-5 other-country-card position-relative" style="width: 20rem;">
+                <!-- INDIA -->
+                <img src="./Images/pexels-photo-574324.jpeg"
+                    class="card-img-top p-2 border rounded-5 border-0 img-fluid" alt="...">
+                <div class="inside-card">
+                    <h5>INDIA</h5>
+                    Cost: INR 35000
+                    <a href="#" class="btn btn-outline-warning rounded-5 d-block h-50" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Book Now</a>
+                </div>
+            </div>
+            <div class="card rounded-5 other-country-card position-relative" style="width: 20rem;">
+                <!-- ITALY -->
+                <img src="./Images/pexels-photo-2422461.jpeg"
+                    class="card-img-top p-2 border rounded-5 border-0 img-fluid" alt="...">
+                <div class="inside-card">
+                    <h5>ITALY</h5>
+                    Cost: INR 70000
+                    <a href="#" class="btn btn-outline-warning rounded-5 d-block h-50" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Book now</a>
+                </div>
+            </div>
+            <div class="card rounded-5 other-country-card position-relative" style="width: 20rem;">
+                <!-- Switzerland -->
+                <img src="./Images/pexels-photo-1291766.jpeg"
+                    class="card-img-top  p-2 border rounded-5 border-0 img-fluid" alt="...">
+                <div class="inside-card">
+                    <h5>SWITZERLAND</h5>
+                    Cost: INR 75000
+                    <a href="#" class="btn btn-outline-warning rounded-5 d-block h-50" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Book now</a>
+                </div>
+            </div>
+            <div class="card rounded-5 other-country-card position-relative" style="width: 20rem;">
+                <!-- France -->
+                <img src="./Images/eiffel-tower-hd-hf.jpg"
+                    class="card-img-top p-2 border rounded-5 border-0 img-fluid" alt="...">
+                <div class="inside-card">
+                    <h5>FRANCE</h5>
+                    Cost: INR 90000
+                    <a href="#" class="btn btn-outline-warning rounded-5 d-block h-50" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Book now</a>
+                </div>
+            </div>
+        </div>
+        <!-- More Countries images card End -->
+        <!-- RATING START -->
+    </section>
+    <section id="Premium-container">
+        <h1 class="text-center mt-5 mb-3">PREMIUM FEATURES</h1>
+        <div class="premium-card-container d-flex justify-content-evenly">
+            <div class="cards-premium position-relative">
+                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/emnfaffv.json" trigger="hover"
+                    colors="primary:#121331,secondary:#646e78,tertiary:#f24c00,quaternary:#ad6836,quinary:#2ea28b,senary:#f5c5bc,septenary:#e9e4ed"
+                    style="width:100%;height: 20vh;">
+                </lord-icon>
+                <h5 class="text-center p-3">Cycling</h5>
+                <div class="position-absolute start-50 translate-middle bottom-0"><a class="" href="">Learn more</a>
+                </div>
+            </div>
+            <div class="cards-premium position-relative">
+                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/flvisirw.json" trigger="hover"
+                    colors="primary:#646e78,secondary:#4bb3fd,tertiary:#ebe6ef" style="width:100%;height:20vh">
+                </lord-icon>
+                <h5 class="text-center p-3">24hrs Support</h5>
+                <div class="position-absolute start-50 translate-middle bottom-0"><a class="" href="">Learn more</a>
+                </div>
+            </div>
+            <div class="cards-premium position-relative">
+                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/qierxeeb.json" trigger="hover"
+                    colors="primary:#3a3347,secondary:#08a88a,tertiary:#ebe6ef,quaternary:#ffc738,quinary:#646e78"
+                    style="width:100%;height:20vh">
+                </lord-icon>
+                <h5 class="text-center p-3">Photo Shoot</h5>
+                <div class="position-absolute start-50 translate-middle bottom-0"><a class="" href="">Learn more</a>
+                </div>
+            </div>
+            <div class="cards-premium position-relative">
+                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/qcargsbo.json" trigger="hover"
+                    colors="primary:#3a3347,secondary:#92140c,tertiary:#4bb3fd,quaternary:#ffc738,quinary:#ebe6ef,senary:#646e78"
+                    style="width:100%;height:20vh">
+                </lord-icon>
+                <h5 class="text-center p-3">Medical support</h5>
+                <div class="position-absolute start-50 translate-middle bottom-0"><a class="" href="">Learn more</a>
+                </div>
+            </div>
+            <div class="cards-premium position-relative">
+                <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/liqouopv.json" trigger="hover"
+                    colors="primary:#93150d,secondary:#f9c9c0" style="width:100%;height:20vh">
+                </lord-icon>
+                <h5 class="text-center p-3">Win Gifts</h5>
+                <div class="position-absolute start-50 translate-middle bottom-0"><a class="" href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-grid gap-2 col-1 mx-auto mt-3"><button type="button"
+                class="btn btn-outline-success rounded-pill">check More</button></div>
+    </section>
+    <footer class="bg-primary footer container-fluid">
+        <div class="row text-center text-white mt-4">
+            <div class="col-md pt-5">
+                <h5>ABOUT US</h5>
+                <a class="footer-links hover-underline-animation" href="">Our Company</a>
+                <a class="footer-links hover-underline-animation" href="">Our Management</a>
+                <a class="footer-links hover-underline-animation" href="">Connections</a>
+                <a class="footer-links hover-underline-animation" href="">Annual Reports</a>
+                <a class="footer-links hover-underline-animation" href="">Our Network</a>
+            </div>
+            <div class="col-md pt-5">
+                <h5>SOCIAL MEDIA</h5>
+                <div class="s-media d-flex justify-content-evenly mt-5">
+                    <div class="icon"><a href=""><i class="fa-brands fa-facebook fa-2xl"
+                                style="color: #ffffff;"></i></a></div>
+                    <div class="icon1"><a href=""><i class="fa-brands fa-instagram fa-2xl"
+                                style="color: #ffffff;"></i></a></div>
+                    <div class="icon2"><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a></div>
+                    <div class="icon3"><a href=""><i class="fa-brands fa-whatsapp fa-2xl"
+                                style="color: #ffffff;"></i></a></div>
+                </div>
+            </div>
+            <div class="col-md pt-5 footer-icon">
+                <img style="width: 50%;" src="./Images/logo-no-background.png" alt="">
+            </div>
+        </div>
+        <span class="text-white text d-block text-center">&copy; Around the world 2023| Developed by Stevin </span>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/58313b35ab.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+</html>
